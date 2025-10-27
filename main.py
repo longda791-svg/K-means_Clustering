@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 from kmeans import KMeans
+plt.rcParams['font.sans-serif'] = ['SimHei']  # 使用黑体显示中文
+plt.rcParams['axes.unicode_minus'] = False     # 解决负号 '-' 显示为方块的问题
 
 def main():
     '''
